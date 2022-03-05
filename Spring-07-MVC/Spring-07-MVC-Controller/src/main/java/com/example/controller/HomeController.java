@@ -1,4 +1,4 @@
-package com.example.spring07mvccontroller.controller;
+package com.example.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,8 +10,8 @@ public class HomeController {
         return "home.html";
     }
 
-    @RequestMapping ("/welcome")
+    @RequestMapping ("/abc")
     public String welcome() {   //name can be different
-        return "home.html";
+        return "abc.html";
     }
 }
